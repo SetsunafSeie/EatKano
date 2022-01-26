@@ -350,11 +350,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 49) return '铸币吧这怎么这么菜啊';
+        if (score <= 99) return '卡在这里了';
+        if (score <= 149) return '还能操作一下';
+        if (score <= 199) return '我觉得我是';
+        return '世界第一中单！';
     }
 
     w.toStr = function(obj) {
